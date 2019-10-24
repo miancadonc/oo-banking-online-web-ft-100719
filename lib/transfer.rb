@@ -28,10 +28,10 @@ class Transfer
   
   end
   
-  def helper(from, to)
-    from.balance -= amount
-    to.balance += amount
-  end
+  # def helper(from, to)
+  #   from.balance -= amount
+  #   to.balance += amount
+  # end
   
   def reverse_transfer
     if self.status == "complete"
